@@ -1,0 +1,32 @@
+{
+  "best_model": "logistic_regression",
+  "cross_validation_roc_auc": 0.846,
+  "cutoff": 0.56,
+  "test_results": {
+    "roc_auc": 0.835,
+    "precision": 0.519,
+    "recall": 0.751,
+    "f1": 0.614
+  },
+  "columns_needed": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ]
+}
